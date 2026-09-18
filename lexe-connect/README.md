@@ -11,10 +11,12 @@ The architecture and protocol are under discussion. This repository is private w
 
 The architectural gist's comments discuss changes to its original recommendations. Read the discussion alongside the proposal; the body alone does not reflect all subsequent feedback.
 
-## Document plan
+## Working drafts
 
-- `architecture.md`: the approach, trust assumptions, responsibilities, and open architectural questions.
-- `protocol.md`: exact messages, fields, cryptographic parameters, validation rules, and errors.
-- `examples/`: example requests and responses, followed by shared test vectors.
+- [Architecture](architecture.md): the current approach, trust assumptions, responsibilities, and decision status.
+- [Protocol](protocol.md): a candidate specification, with unresolved wire-format and behavior decisions identified.
+- [Examples](examples/README.md): illustrative exchanges and cases to turn into shared conformance tests.
 
-These documents will be added as the work progresses. Propose changes through pull requests so both teams can discuss specific lines and record agreed decisions.
+These drafts reflect the discussion through September 18, 2026. They require joint review. The examples are not an implementation-ready wire format or cryptographic test vectors.
+
+Propose changes through pull requests so both teams can discuss specific lines and record agreed decisions. Update the decision status when an open question is resolved.
