@@ -1,20 +1,15 @@
-# Lexe Connect
+# App-to-app authorization
 
-Working documents for the same-device app-to-app delegated authorization flow between Zaprite P2P and Lexe.
+Architecture proposals and protocol specifications for app-to-app delegated authorization.
 
-The architecture and protocol are under discussion. This repository is private while the teams develop the proposal.
+Each integration has its own directory for its architecture, protocol, and examples. Shared conventions can be documented as the integrations develop.
 
-## Current discussion
+## Integrations
 
-- [Zaprite architectural proposal and discussion](https://gist.github.com/nk1tz/b459fb8804612c34f6a6ff201a62ec6c)
-- [Lexe connection-flow draft](https://gist.github.com/MaxFangX/5ed4d545c1368b4fa2ba06ed3200f68f)
+- [Lexe Connect](lexe-connect/README.md): the same-device connection flow between Zaprite P2P and Lexe.
 
-The architectural gist's comments discuss changes to its original recommendations. Read the discussion alongside the proposal; the body alone does not reflect all subsequent feedback.
+## Collaboration
 
-## Document plan
+Propose changes through pull requests so the teams can discuss specific lines and record agreed decisions. Keep unresolved questions explicit in each proposal.
 
-- `architecture.md`: the approach, trust assumptions, responsibilities, and open architectural questions.
-- `protocol.md`: exact messages, fields, cryptographic parameters, validation rules, and errors.
-- `examples/`: example requests and responses, followed by shared test vectors.
-
-These documents will be added as the work progresses. Propose changes through pull requests so both teams can discuss specific lines and record agreed decisions.
+This repository is private while the initial proposals are developed.
